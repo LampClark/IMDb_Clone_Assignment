@@ -1,0 +1,6 @@
+development:
+adapter: postgresql
+database: imdb_record
+host: localhost
+user: postgres
+password: console

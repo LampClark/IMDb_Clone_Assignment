@@ -1,0 +1,27 @@
+<title>IMDb Sign-in</title>
+<h1>Sign in</h1>
+
+<% if flash[:error] %>
+    <p class="error"><%= flash[:error] %></p>
+<% end %>
+
+<form action="/login" method="post">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+    <br><br>
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required>
+    <br><br>
+
+    <button type="submit">Sign in</button>
+</form>
+
+<div style="text-align: center;">
+    <hr style="border: none; height: 1px; background-color: #333;">
+    <div style="position: relative; top: -14px;">
+      <h5 style="display: inline; background-color: white; padding: 0 10px;">New to IMDb?</h5>
+    </div>
+  </div>
+
+  <a href="/register">Create your IMDb account</a>

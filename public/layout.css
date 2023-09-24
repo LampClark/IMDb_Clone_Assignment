@@ -1,0 +1,59 @@
+/* layout.css */
+
+/* Header styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+header {
+    background-color: #16191d;
+    border-radius: 3px 3px 3px 3px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+  }
+    
+    .header-left {
+      flex-grow: 1;
+    }
+
+    .header-center {
+        /* Center the search bar horizontally and vertically */
+        display: flex;
+        align-items: center;
+        flex-grow: 15;
+        justify-content: center;
+      }
+
+    .search-container {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+      }
+
+      .header-center button {
+        /* Style the search button */
+        background-color: #ff7c02;
+        border: none;
+        border-radius: 3px 3px 3px 3px; /* Rounded corners on the right side */
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 10px;
+      }
+    
+    .header-right {
+      display: flex;
+      align-items: center;
+    }
+    
+    .header-right a {
+      margin-left: 20px;
+      color: #fff;
+      text-decoration: none;
+    }
+  
