@@ -20,9 +20,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_24_204421) do
     t.string "genres"
     t.string "writters"
     t.string "director"
-    t.string "summary"
     t.string "actors"
-    t.integer "release_year"
+    t.integer "published_year"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "rating"
